@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import os
 import math
-from CNN_GRU import dynamic_model
+from CNN import dynamic_model
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
